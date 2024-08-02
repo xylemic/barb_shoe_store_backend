@@ -2,11 +2,11 @@ require('dotenv').config();
 
 module.exports = {
   development: {
-    url: process.env.DATABASE_URL,
+    storage: process.env.DATABASE_STORAGE,
     dialect: 'sqlite',
   },
   production: {
-    url: process.env.DATABASE_URL,
+    url: process.env.DATABASE_STORAGE,
     dialect: 'sqlite',
   }
 };
