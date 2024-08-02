@@ -6,10 +6,10 @@ POST http://localhost:3000/api/products
 Content-Type: application/json
 
 {
-  "name": "mens brogues classic",
+  "name": "mens classic",
   "price": 65.99,
   "stock": 45,
-  "colors": ["black", "brown"],
+  "colors": ["black"],
   "hidden": false,
   "image": "dress.jpg"
 }
