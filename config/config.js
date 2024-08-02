@@ -6,7 +6,7 @@ module.exports = {
     dialect: 'sqlite',
   },
   production: {
-    url: process.env.DATABASE_STORAGE,
+    storage: process.env.DATABASE_STORAGE,
     dialect: 'sqlite',
   }
 };
