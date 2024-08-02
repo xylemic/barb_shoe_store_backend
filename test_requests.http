@@ -1,0 +1,31 @@
+### test get request
+Get http://localhost:3000/api/products
+
+### test post request
+POST http://localhost:3000/api/products 
+Content-Type: application/json
+
+{
+  "name": "mens brogues classic",
+  "price": 65.99,
+  "stock": 45,
+  "colors": ["black", "brown"],
+  "hidden": false,
+  "image": "dress.jpg"
+}
+
+### test put request
+PUT http://localhost:3000/api/products/2
+Content-Type: application/json
+
+{
+  "name": "updated nike airmax",
+  "price": 200.99,
+  "stock": 120,
+  "colors": ["silver", "space-gray", "white"],
+  "hidden": false,
+  "image": "sneakers.jpg"
+}
+
+### test delete request
+ DELETE http://localhost:3000/api/products/3
